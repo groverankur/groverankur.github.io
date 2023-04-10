@@ -17,26 +17,8 @@ darkmode: true
 # Social links
 twitter_username: grover_ankur
 github_username:  groverankur
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
 linkedin_username: ankur-grover
-# xing_username: jekyll
-# pinterest_username: jekyll
 youtube_username: groverankur
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -54,49 +36,168 @@ about_content: | # this will include new lines to allow paragraphs
 
   But it's not just about the technical skills. I'm also a people person who enjoys working with cross-functional teams to deliver high-quality work that exceeds expectations. My excellent analytical, team-working, project-management, communication, and organizational skills enable me to manage multiple priorities in fast-paced environments while maintaining a positive attitude.
 
-  When I'm not working on exciting data projects, you can find me <mark>exploring the outdoors</mark> or <mark>reading books</mark>. I believe that balance is key to a fulfilling life, both personally and professionally.
+  I am passionate about staying up-to-date with the latest trends in the industry, and I am committed to continuous learning and professional development.
+
+  When I'm not working on exciting data projects, you can find me <mark>playing RTS Games like AOE & Anno</mark> or <mark>reading books</mark>. I believe that balance is key to a fulfilling life, both personally and professionally.
 
 content:
-#  - title: Projects # Title for the section
-#    layout: list # Type of content section (list/text)
-#    content:
-#      - layout: top-middle
-#        title: Super awesome project
-#        link: github.com/sproogen
-#        # link_text: Project Website
-#        additional_links:
-#          - title:  sproogen/modern-resume-theme
-#            icon: fab fa-github
-#            url: github.com/sproogen/modern-resume-theme
-#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#          #   icon: fab fa-github
-#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#        quote: >
-#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-#        description: | # this will include new lines to allow paragraphs
-#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  - title: Summary of Skills # Title for the section
+    layout: text # Type of content section (list/text)
+    content: | # this will include new lines to allow paragraphs
+            -	Experience in technology, software, consulting, and IT mainly focused on enterprise data platforms, applications, Big data solutions, Big Data Analytics and Hadoop implementations for Telecom, customer support and social media.
+            -	Hands on experience with Hadoop distributions like Hortonworks, Apache, Hadoop architecture and technology stack (Hive, PySpark, HDFS and zookeeper, Kafka, Spark).
+            -	Specialized in delivery of data and BI projects for various business groups and proven track record of executing BI and Data Projects end to end.
+            -	Provide expert level guidance on Big Data best practices and standards.
+            -	Work with product owners, business SME and data ingestion and reporting architects to identify requirements and consolidate enterprise data model consistent with business processes.
+            -	Lead key business critical projects in the capacity of a Data Architect and Advisor.
+            -	Review business requirements and technical design documents to develop effective data and database solutions.
+            -	Create, maintain, and define Data Architecture artifacts based on Enterprise Architecture requirements.
+            -	Develop and maintain technical roadmap for Enterprise Big Data Platform for different platform capabilities.
+            -	Research, evaluate and recommend tools for Enterprise Big Data Platform.
+            -	Ingesting wide variety of data like structured, unstructured, and semi structured into the Big data eco systems with batch processing, real time streaming and SQL.
+            -	Expert level understanding of open-source technologies around Hadoop ecosystem.
+            -	Proficiency with Shell Script, SQL, PL/SQL, Python, and Spark.
+
+  - title: Technical Skills # Title for the section
+    layout: text # Type of content section (list/text)
+    content: | # this will include new lines to allow paragraphs
+            -	Data Warehousing: Relational MySQL, Oracle, Hive, Greenplum
+            -	Big Data Frameworks: Hadoop HDFS, MapReduce, Hive, Pig, Zookeeper, Spark.
+            -	Data Analysis: Hive, PySpark, Python Data Transformation
+            -	Scheduling: Airflow,Azkaban, Shell scripting
+            -	Languages: Python, Shell Scripting, SQL/PL-SQL
+
+  - title: Certification # Title for the section
+    layout: text # Type of content section (list/text)
+    content: | # this will include new lines to allow paragraphs
+            -	Data Scientist with Python, DataCamp ([39229](https://www.datacamp.com/statement-of-accomplishment/track/925fe7a711c82590a4b03200d8fec332f96c48f0))
+            -	Machine Learning by Stanford University on Coursera ([3WGCS23VDP7A](https://www.coursera.org/account/accomplishments/verify/3WGCS23VDP7A))
+            -	Big Data Modeling and Management Systems by University of California San Diego on Coursera ([P8FETXCC4M4R[](https://www.coursera.org/account/accomplishments/verify/P8FETXCC4M4R))
+            -	DeepLearning.AI TensorFlow Developer on Coursera ([ZBAR2GZNRY3U](https://www.coursera.org/account/accomplishments/professional-cert/ZBAR2GZNRY3U))
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak
         title: Jio Platforms Limited
-        link: jio.com
-        # link_text: boringcompany.com
+        link: https://www.jio.com/platforms
+        link_text: Jio Platforms
         sub_title: Deputy General Manager - BI Analytics
-        caption: May 2016 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        caption: Apr, 2022 - Present
         description: | # this will include new lines to allow paragraphs
-            •	Implementation of Ingesting wide variety of data like structured, unstructured, and semi structured into the Big data eco systems with batch processing, real time streaming and SQL using big data pipeline, Hive jobs, PySpark jobs, Kafka on Jio Big Data Hadoop clusters.
-            •	Handled different Hadoop Cluster with a current size of 300+ Nodes and 30 Petabytes capacity.
-            •	Provide technical thought leadership on Big Data strategy, adoption, architecture, and design, as well as data engineering and modelling.
-            •	Providing expert level guidance on Big Data best practices and standards.
-            •	Work with product owners, business SME and data ingestion and reporting architects to identify requirements and consolidate enterprise data model consistent with business processes.
-            •	Implementation of technical solution for backup and retrieval of historical data to and from Hadoop cluster.
-            •	Developed and Implemented Data extraction and correlation between different data stream using PySpark. 
-            •	Responsible of setting up team objectives, preparing weekly and monthly project review report to management, regular weekly status calls with team. 
-            •	Application Operation Management for application related to Business Analytics and Regulatory team 
+            -	Implementation of Ingesting wide variety of data like structured, unstructured, and semi structured into the Big data eco systems with batch processing, real time streaming and SQL using big data pipeline, Hive jobs, PySpark jobs, Kafka on Jio Big Data Hadoop clusters.
+            -	Handled different Hadoop Cluster(Cloudera & Hortonworks) with a current size of 300+ Nodes and 30 Petabytes capacity.
+            -	Provide technical thought leadership on Big Data strategy, adoption, architecture, and design, as well as data engineering and modelling.
+            -	Providing expert level guidance on Big Data best practices and standards.
+            -	Work with product owners, business SME and data ingestion and reporting architects to identify requirements and consolidate enterprise data model consistent with business processes.
+            -	Implementation of technical solution for backup and retrieval of historical data to and from Hadoop cluster(Cloudera & Hortonworks).
+            -	Developed and Implemented Data extraction and correlation between different data stream using PySpark.
+            -	Responsible of setting up team objectives, preparing weekly and monthly project review report to management, regular weekly status calls with team.
+            -	Application Operation Management for application related to Business Analytics and Regulatory team
+      - layout: left
+        border: weak
+        title: Jio Platforms Limited
+        link: https://www.jio.com/platforms
+        link_text: Jio Platforms
+        sub_title: Senior Manager - BI Analytics
+        caption: Apr, 2019 - Apr, 2022
+        description: | # this will include new lines to allow paragraphs
+            -	Implementation of Ingesting wide variety of data like structured, unstructured, and semi structured into the Big data eco systems with batch processing, real time streaming and SQL using big data pipeline, Hive jobs, PySpark jobs, Kafka on Jio Big Data Hadoop clusters.
+            -	Handled different Hadoop Cluster with a current size of 300+ Nodes and 30 Petabytes capacity.
+            -	Provide technical thought leadership on Big Data strategy, adoption, architecture, and design, as well as data engineering and modelling.
+            -	Providing expert level guidance on Big Data best practices and standards.
+            -	Work with product owners, business SME and data ingestion and reporting architects to identify requirements and consolidate enterprise data model consistent with business processes.
+            -	Implementation of technical solution for backup and retrieval of historical data to and from Hadoop cluster.
+            -	Developed and Implemented Data extraction and correlation between different data stream using PySpark. 
+            -	Responsible of setting up team objectives, preparing weekly and monthly project review report to management, regular weekly status calls with team. 
+            -	Application Operation Management for application related to Business Analytics and Regulatory team
+      - layout: left
+        border: weak
+        title: Jio Platforms Limited
+        link: https://www.jio.com/platforms
+        link_text: Jio Platforms
+        sub_title: Manager - BI Analytics
+        caption: May, 2016 - Apr, 2019
+        description: | # this will include new lines to allow paragraphs
+            -	Developing the scenarios to load the data in to central repository from different sources and different regions.
+            -	Performing various activities (CDR extraction/CDR loading/Correlation between different sources) related to LIM Reporting at L1 and L2 level
+            -	Responsible for delivering Regulatory reports to business and circle for Term submission.
+            -	Responsible for UAT / Implementation of new projects, integration with new/ existing project ventures, handling/ controlling change of requirements in existing projects.
+            -	Providing Data Quality reports to RAFM & Circle teams for corrective & proactive actions.
+            -	Issue fixing like environment related issues like unavailability of application, slowness, Data issues and jobs issues.
+            -	Responsible of setting up team objectives, preparing weekly and monthly project review report to management, regular weekly status calls with team.
+            -	Application Operation Management for application related to RJIL Business Analytics and Regulatory team
+            -	Application User ID Management
+      - layout: left
+        border: weak
+        title: IBM India Pvt Ltd
+        link: https://www.ibm.com/in-en
+        link_text: IBM
+        sub_title: Senior Technical Services Specialist - BSS Operations
+        caption: Dec, 2012 – May, 2016
+        description: | # this will include new lines to allow paragraphs
+            Client: Etihad Etisalat (Mobily) Saudi Arabia
+            - Collected customer complaints registered through Remedy IT service management and Maximo - complaint management tool, categorize them and provide work around solutions within predefined SLA.
+            - Performing Reconciliation and Business Services related issues resolution for different Business Services (like Account activation, Package conversion, SIM/NUM swap, MNP and supplement services) configured in Business service layer.
+            - Ensure timely and prompt reporting of risks/issues/Dependencies for the different Business Services and escalating it to L3 team for permanent fix.
+            - Working for Global Customer complaints along with SDM on Escalations 24\*7 for BSS Operations.
+      - layout: left
+        border: weak
+        title: Sistema Shyam Teleservices Limited
+        sub_title: Senior Specialist - MTS
+        caption: Nov, 2011 – Dec, 2012
+        description: | # this will include new lines to allow paragraphs
+            - Acting as a SPOC for Application IT operations for Maharashtra & Goa Circle(MTS).
+            - Resolving application/IT related issues at L2 level.
+            - Configuration of Channel tree in UTIBA/TELCRM(Remote Dealer Portal)
+      - layout: left
+        border: weak
+        title: Tech Mahindra
+        sub_title: Technical Associate
+        caption: May, 2011 – Oct, 2011
+        description: | # this will include new lines to allow paragraphs
+            Client: S Tel Private Ltd, India
+            - Acting as a SPOC for Application IT operations for HP Circle (STEL).
+            - Worked with Central IT teams for the smooth rollout of Stel as a new telecomm entrant in HP circle.
+            - Prepaid Card Creation at Home Location Register (HLR), Intelligent Network (IN), Customer Relationship Management (CRM) and Etopup
+            - Responsible for the smooth rollout of applications at circle level.
+      - layout: left
+        border: weak
+        title: IBM India Pvt Ltd
+        link: https://www.ibm.com/in-en
+        link_text: IBM
+        sub_title: Operation Support Executive
+        caption: Feb, 2009 – May, 2011
+        description: | # this will include new lines to allow paragraphs
+            Client: Idea Cellular Ltd, India
+            - Acting as a SPOC for Application IT operations for UPE Circle(IDEA).
+            - Ensuring accuracy and timeliness in MIS in Circle.
+            - Coordinating with Corporate-IT and Intelligence Network Teams.
+            - Design and development of a scripts based on adhoc requirement.
+            - Handling Month end activities and Bill cycle activities
+            - Ensure timely and prompt reporting of risks/issues/Dependencies and timely action on Action items in Risk/Issue logs.
+            - Delivery of Reports (Daily and Monthly) for UPE circles within TAT with 100% accuracy.
+            - Discuss with Customer for any adhoc requirement. Check the feasibility and freeze the timeline of delivery of reports.
+            - Support local as well as Central Level application
+      - layout: left
+        border: weak
+        title: Ma Foi Management Consultants Ltd
+        sub_title: FM Engineer
+        caption: Feb, 2008 – Feb, 2009
+        description: | # this will include new lines to allow paragraphs
+            Client: Ericsson India Private Limited, India
+            - Complete Operations and Maintenance of BTS, TRANSSMISSION Unit and Electrical System at RBS site. This include routine checkup, preventive maintenance, defect diagnosing..
+            - Experience on new released software up gradation of Traffic Node system.
+      - layout: left
+        border: weak
+        title: Echo Mirror
+        sub_title: Patent Research Analyst
+        caption: Aug, 2007 – Feb, 2008
+        description: | # this will include new lines to allow paragraphs
+            Client: Ericsson India Private Limited, India
+            - Complete Operations and Maintenance of BTS, TRANSSMISSION Unit and Electrical System at RBS site. This include routine checkup, preventive maintenance, defect diagnosing..
+            - Experience on new released software up gradation of Traffic Node system.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -113,11 +214,9 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in Data engineering some of my other interests and hobbies are:
+      - Developing Games
+      - RTS Gaming
 
 # Footer
 footer_show_references: true
