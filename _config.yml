@@ -195,9 +195,11 @@ content:
         sub_title: Patent Research Analyst
         caption: Aug, 2007 – Feb, 2008
         description: | # this will include new lines to allow paragraphs
-            Client: Ericsson India Private Limited, India
-            - Complete Operations and Maintenance of BTS, TRANSSMISSION Unit and Electrical System at RBS site. This include routine checkup, preventive maintenance, defect diagnosing..
-            - Experience on new released software up gradation of Traffic Node system.
+            - Patent Patentability Search
+            - Patent Drafting
+            - Invalidation Search
+            - Intellectual property Asset Management (IPAM)  
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
