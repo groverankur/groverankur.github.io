@@ -38,7 +38,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am passionate about staying up-to-date with the latest trends in the industry, and I am committed to continuous learning and professional development.
 
-  When I'm not working on exciting data projects, you can find me <mark>playing RTS Games like AOE & Anno</mark> or <mark>reading books</mark>. I believe that balance is key to a fulfilling life, both personally and professionally.
+  When I'm not working on exciting data projects, you can find me <mark>reading books</mark>. I believe that balance is key to a fulfilling life, both personally and professionally.
 
 content:
   - title: Summary of Skills # Title for the section
@@ -217,7 +217,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in Data engineering some of my other interests and hobbies are:
-      - Developing Games
+      - Reading books
       - RTS Gaming
 
 # Footer
