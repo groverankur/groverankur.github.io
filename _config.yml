@@ -9,7 +9,7 @@ version: 2
 name: Ankur Grover
 title: Data Engineer
 email: grover.ankur@gmail.com
-website: https://github.com/groverankur
+website: https://groverankur.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -45,7 +45,7 @@ content:
     layout: text # Type of content section (list/text)
     content: | # this will include new lines to allow paragraphs
             -	Experience in technology, software, consulting, and IT mainly focused on enterprise data platforms, applications, Big data solutions, Big Data Analytics and Hadoop implementations for Telecom, customer support and social media.
-            -	Hands on experience with Hadoop distributions like Hortonworks, Apache, Hadoop architecture and technology stack (Hive, PySpark, HDFS and zookeeper, Kafka, Spark).
+            -	Hands on experience with Hadoop distributions like Hortonworks, Apache, Hadoop architecture and technology stack (Hive, PySpark, HDFS and zookeeper, Spark).
             -	Specialized in delivery of data and BI projects for various business groups and proven track record of executing BI and Data Projects end to end.
             -	Provide expert level guidance on Big Data best practices and standards.
             -	Work with product owners, business SME and data ingestion and reporting architects to identify requirements and consolidate enterprise data model consistent with business processes.
@@ -221,7 +221,7 @@ content:
       - RTS Gaming
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
