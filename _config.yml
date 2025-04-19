@@ -12,7 +12,7 @@ email: grover.ankur@gmail.com
 website: https://groverankur.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 twitter_username: grover_ankur
