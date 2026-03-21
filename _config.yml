@@ -14,7 +14,7 @@ url: https://groverankur.github.io
 website: https://groverankur.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
 twitter_username: grover_ankur
@@ -89,7 +89,7 @@ content:
           - Data Engineering Leadership  
           - Distributed Data Platforms  
           - Spark / PySpark  
-          - Hadoop Ecosystem (HDFS, Hive)  
+          - Big Data Ecosystem (Hive, Hadoop,Apache Ozone,etc)  
           - Data Architecture & Modeling  
           - Large-scale Data Ingestion  
           - Platform Reliability & Optimization  
@@ -99,10 +99,10 @@ content:
         border: weak
         title: "Technical Stack"
         description: |
-          - Hadoop, HDFS, Hive, Spark, PySpark  
+          - Hadoop, HDFS, Apache Ozone, Spark, PySpark  
           - Python, SQL, Shell Scripting  
-          - Oracle, MySQL  
-          - Azkaban
+          - Oracle, MySQL  Hive
+          - Airflow, NiFi,Azkaban
 
       - layout: left
         border: weak
@@ -122,7 +122,7 @@ content:
       - layout: left
         border: weak
         title: "Experimenting in Python: Building a React Better-Auth Inspired Authentication Library"
-        sub_title: "Medium Article"
+        link_text: "Medium Article"
         link: "https://medium.com/@groverankur/experimenting-in-python-building-a-react-better-auth-inspired-authentication-library-284487b9e787"
         description: |
           Explores building an authentication library in Python inspired by modern frontend patterns like Better Auth. 
@@ -181,7 +181,6 @@ content:
           - Automated reporting workflows improving operational efficiency
           - Received IBM Thanks Award and multiple performance recognitions
 
-
   # Education Section
   - title: "Education"
     layout: list
@@ -218,4 +217,3 @@ sass:
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
-
