@@ -1,0 +1,221 @@
+# Site
+repository: "groverankur/groverankur.github.io"
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Ankur Grover
+title: Data Platform Architect & Technical Leader
+description: Data Platform Architect with 18+ years of experience building large-scale distributed data platforms.
+email: grover.ankur@gmail.com
+url: https://groverankur.github.io
+website: https://groverankur.github.io/
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+twitter_username: grover_ankur
+github_username: groverankur
+linkedin_username: ankur-grover
+
+additional_links:
+  - title: Medium
+    icon: fab fa-medium
+    url: https://medium.com/@groverankur
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, I am a <mark>Data Engineering leader</mark> with 18+ years of experience designing and operating large-scale distributed data platforms across telecom and enterprise environments.
+
+  At Jio Platforms, I have led data platforms operating at **100PB+ scale across 800+ nodes**, managing **100+ pipelines** and leading a team of **10 engineers**.
+
+  I have driven measurable impact by improving platform SLA from **65% to 87%** through Spark optimization and platform reliability initiatives.
+
+  My expertise lies in **Spark, Hadoop ecosystem, enterprise data architecture, and large-scale data ingestion systems**.
+
+  I am currently focused on evolving toward modern data platforms including:
+  - Lakehouse architectures (Delta Lake, Databricks)
+  - Real-time streaming systems (Kafka, Spark Structured Streaming)
+  - Scalable and governed data platforms
+
+  I stay current with evolving data platform practices and remain committed to continuous learning and professional development.
+
+  I am interested in Technical Leadership roles where I can combine deep distributed systems experience with modern data platform architecture.
+
+  When I'm not working on exciting data projects, you can find me <mark>reading books</mark>. I believe that balance is key to a fulfilling life, both personally and professionally.
+
+content:
+  # Projects Section
+  - title: "Projects"
+    layout: list
+    content:
+      - layout: top-middle
+        title: "Real-Time Telecom Data Platform (Lakehouse) with CDR(Call Detail Records) and IPDR (Internet Protocol Detail Records) simulator"
+        sub_title: "Personal Project in Progress"
+        quote: >
+          A modern telecom data platform project focused on real-time ingestion, medallion architecture, and analytics readiness.
+        description: |
+          I started this project as a way to design a real-time data platform simulating telecom events using modern data architecture principles.
+
+          **Architecture:**
+          DuckDB/Python Scripts -> Kafka -> Spark Structured Streaming -> Delta Lake (Bronze/Silver/Gold) -> Analytics
+
+          **Focus Areas:**
+          - Streaming ingestion
+          - Medallion architecture
+          - Data quality and deduplication
+          - Late-arriving data handling
+          - Scalable data processing
+
+  # Skills Section
+  - title: "Skills"
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: "Core Expertise"
+        description: |
+          - Data Engineering Leadership  
+          - Distributed Data Platforms  
+          - Spark / PySpark  
+          - Hadoop Ecosystem (HDFS, Hive)  
+          - Data Architecture & Modeling  
+          - Large-scale Data Ingestion  
+          - Platform Reliability & Optimization  
+          - Data Governance & Privacy
+
+      - layout: left
+        border: weak
+        title: "Technical Stack"
+        description: |
+          - Hadoop, HDFS, Hive, Spark, PySpark  
+          - Python, SQL, Shell Scripting  
+          - Oracle, MySQL  
+          - Azkaban
+
+      - layout: left
+        border: weak
+        title: "Modern Stack (Learning)"
+        description: |
+          - Databricks  
+          - Delta Lake  
+          - Kafka  
+          - ClickHouse
+          - DuckDB
+          - Spark Structured Streaming  
+          - Lakehouse Architecture
+
+  - title: "Blog & Writing"
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: "Experimenting in Python: Building a React Better-Auth Inspired Authentication Library"
+        sub_title: "Medium Article"
+        link: "https://medium.com/@groverankur/experimenting-in-python-building-a-react-better-auth-inspired-authentication-library-284487b9e787"
+        description: |
+          Explores building an authentication library in Python inspired by modern frontend patterns like Better Auth. 
+          Focuses on system design, modular architecture, and bridging backend engineering with developer experience.
+
+  - title: "Experience"
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: "Jio Platforms Limited"
+        sub_title: "Deputy General Manager - Data Engineering / BI Analytics"
+        caption: "May 2016 - Present"
+        description: |
+          - Led enterprise-scale data platform handling **100PB+ data across 800+ nodes**
+          - Managed **100+ production data pipelines** across analytics and regulatory domains
+          - Led a team of **10 data engineers**, driving delivery and platform operations
+          - Improved platform SLA from **65% to 87%** through Spark optimization
+          - Designed large-scale data ingestion and transformation pipelines using PySpark and Hive
+          - Defined enterprise data architecture and data models across domains
+          - Led design of data backup and retrieval systems for historical analytics
+          - Partnered with business stakeholders to deliver analytics and reporting solutions
+          - Ensured compliance with data governance and privacy requirements
+
+      - layout: left
+        title: "IBM India Pvt Ltd"
+        border: weak
+        sub_title: "Senior Technical Services Specialist - BSS Operations"
+        caption: "Dec 2012 - May 2016"
+        description: |
+          - Managed telecom business service operations and SLA-driven issue resolution
+          - Handled customer complaints and service workflows across enterprise systems
+          - Supported reconciliation and business service operations
+          - Escalated critical issues and ensured service continuity
+
+      - layout: left
+        border: weak
+        title: "Earlier Experience"
+        description: |
+          - Sistema Shyam Teleservices Limited - Senior Specialist  
+          - Tech Mahindra Ltd. - Technical Associate  
+          - IBM India Pvt Ltd - Operation Support Executive  
+          - Ma Foi Management Consultants Ltd - FM Engineer  
+          - Echo Mirror - Patent Research Analyst
+
+  # Achievements Section
+  - title: "Key Achievements"
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        description: |
+          - Operated and scaled **100PB+ enterprise data platform**
+          - Improved SLA from **65% to 87%**
+          - Reduced processing time from **24h to 10h**
+          - Automated reporting workflows improving operational efficiency
+          - Received IBM Thanks Award and multiple performance recognitions
+
+
+  # Education Section
+  - title: "Education"
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: "B.Tech - Electronics & Communication"
+        sub_title: "Punjab Technical University"
+        caption: "2003 - 2007"
+
+  # Certifications Section
+  - title: "Certifications"
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        description: |
+          - Data Scientist with Python - DataCamp  
+          - Machine Learning - Stanford University (Coursera)  
+          - Big Data Modeling - UC San Diego  
+          - DeepLearning.AI TensorFlow Developer
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
